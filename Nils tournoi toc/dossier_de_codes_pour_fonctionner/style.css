@@ -1,0 +1,110 @@
+body > header {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#equipes {
+    width: 60vw;
+}
+
+#equipes > header {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#equipes > header > h2:first-child {
+    margin-right: 2rem;
+}
+
+.row_around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem 4rem;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    padding: 0 3rem;
+}
+
+#equipes_et_formulaire {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.equipe:nth-child(even) {
+    background-color: snow;
+}
+
+.supression_equipe {
+    max-width: 30px;
+}
+
+.match {
+    width: 300px;
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#matchs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.vs {
+    margin: 0;
+}
+
+.titre_round {
+    width: 100%;
+}
+
+.fonce {
+    background-color: darkgray;
+}
+
+#liste_equipes {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.centrage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 3rem;
+}
+.centrage_texte {
+    text-align: center;
+}
+#nom_equipe {
+    min-height: 1.5rem;
+    max-width: 20rem;
+}

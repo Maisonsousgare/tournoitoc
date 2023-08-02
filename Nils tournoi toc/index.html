@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Tournoi de Toc - Dashboard</title>
+    <link href="dossier_de_codes_pour_fonctionner/style.css" rel="stylesheet">
+    <script src="dossier_de_codes_pour_fonctionner/main.js" defer></script>
+  </head> 
+  <body>
+    <header>
+        <h1>Tournoi Toc 2023</h1>
+    </header>
+    <section id="equipes_et_formulaire">
+        <div id="equipes">
+            <header>
+              <div>
+                <h2>Equipes: <span id="nombre_equipes">0</span></h2>
+                <h2>Matchs joués: <span id="nombre_matchs_joue">0</span> / <span id="nombre_matchs_total">0</span></h2>
+              </div>
+                <div class="row_around">
+                  <div>
+                    <h2>Poule 1</h2>
+                  </div>
+                  <div>
+                    <h2>Poule 2</h2>
+                  </div>
+                </div>
+            </header>
+            <div class="centrage">
+              <h3>Ajouter une équipe</h3>
+              <input type="text" id="nom_equipe" name="name">
+            </div>
+            <div id="liste_equipes">
+            </div>
+        </div>
+        <div id="formulaire">
+            <header class="centrage centrage_texte">
+              <h2>Equipes toute rentrées ?<br>Génère les matchs et les groupes de poules!</h2>
+                <button id="debut_tournoi">Débuter le tournoi</button>
+            </header>
+        </div>
+    </section>
+    <section id="matchs">
+    </section>
+  </body> 
+</html> 
